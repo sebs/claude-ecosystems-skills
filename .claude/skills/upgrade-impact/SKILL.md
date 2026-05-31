@@ -6,8 +6,6 @@ description: >
   new advisories or license changes. Trigger when the user asks "what happens if
   I bump X to Y?", "is this upgrade safe?", "what does this version pull in?",
   "diff the dependency tree for this version bump", or weighs an upgrade.
-version: 1.0.0
-userInvocable: true
 ---
 
 # Upgrade Impact Analysis

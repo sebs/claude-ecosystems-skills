@@ -6,8 +6,6 @@ description: >
   possibly unfunded maintainer. Trigger when the user asks about "supply chain
   risk", "bus factor", "sole maintainer risk", "what's our xz exposure?", or
   wants to know which dependencies are fragile single points of failure.
-version: 1.0.0
-userInvocable: true
 ---
 
 # Supply-Chain & Maintainer-Risk Audit

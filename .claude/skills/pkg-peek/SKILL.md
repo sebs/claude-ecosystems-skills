@@ -6,8 +6,6 @@ description: >
   this package?", "show me the README/changelog for X", "what changed between
   versions?", "is this package what it claims to be?", or wants to eyeball a
   dependency's source before pulling it in.
-version: 1.0.0
-userInvocable: true
 ---
 
 # Package Peek (inspect without installing)

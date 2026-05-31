@@ -6,8 +6,6 @@ description: >
   critical-package data). Trigger when the user asks "which deps should we fund/
   sponsor?", "where should our OSS budget go?", "are the projects we rely on
   sustainable?", or wants a funding/sustainability report for their stack.
-version: 1.0.0
-userInvocable: true
 ---
 
 # OSS Funding & Sustainability Report

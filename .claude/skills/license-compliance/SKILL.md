@@ -6,8 +6,6 @@ description: >
   licenses", "any GPL/copyleft in here?", "license compliance report",
   "is this safe to ship in a proprietary product?", or needs a license
   inventory for legal/compliance. Flags policy violations and unknown licenses.
-version: 1.1.0
-userInvocable: true
 ---
 
 # SBOM & License-Compliance Check

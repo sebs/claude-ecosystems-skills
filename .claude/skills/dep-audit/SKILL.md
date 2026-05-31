@@ -6,8 +6,6 @@ description: >
   for vulnerabilities/CVEs", "scan my lockfile/package.json/requirements.txt",
   "are any of my deps vulnerable?", or wants a security report for a manifest or
   a GitHub repo. Produces a severity-ranked report with fixed versions.
-version: 1.1.0
-userInvocable: true
 ---
 
 # Dependency Vulnerability Audit

@@ -6,8 +6,6 @@ description: >
   "is X well maintained / safe / actively developed?", "vet this library",
   "is this package healthy?", or compares candidate libraries. Produces an
   adopt / caution / avoid scorecard with the evidence behind it.
-version: 1.1.0
-userInvocable: true
 ---
 
 # New-Dependency Due Diligence

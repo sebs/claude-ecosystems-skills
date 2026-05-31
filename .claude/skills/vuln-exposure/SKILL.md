@@ -6,8 +6,6 @@ description: >
   exposed a project or the wider ecosystem is. Trigger when the user says "a CVE
   just dropped for X", "how exposed are we to <advisory>", "what depends on this
   vulnerable package?", "blast radius of GHSA-…", or incident-response triage.
-version: 1.1.0
-userInvocable: true
 ---
 
 # Advisory Blast-Radius Triage
