@@ -43,7 +43,7 @@ The skills cross-reference one another (e.g. `supply-chain-risk` hands funding d
 Clone into your **project** skills directory (available in that project only):
 
 ```bash
-git clone https://github.com/sebs/claude-ecosystems-skils tmp-skills
+git clone https://github.com/sebs/claude-ecosystems-skills tmp-skills
 mkdir -p .claude/skills
 cp -R tmp-skills/.claude/skills/* .claude/skills/
 rm -rf tmp-skills
@@ -52,7 +52,7 @@ rm -rf tmp-skills
 …or into your **personal** skills directory (available across all your projects):
 
 ```bash
-git clone https://github.com/sebs/claude-ecosystems-skils tmp-skills
+git clone https://github.com/sebs/claude-ecosystems-skills tmp-skills
 mkdir -p ~/.claude/skills
 cp -R tmp-skills/.claude/skills/* ~/.claude/skills/
 rm -rf tmp-skills
@@ -109,5 +109,4 @@ Issues and PRs welcome. When adding a skill, keep `SKILL.md` focused, give it a
 
 ## License
 
-No license file is present yet. Until one is added, all rights are reserved by the author;
-open an issue if you'd like to use this in a context that needs an explicit license.
+[MIT](LICENSE) © Sebastian Schürmann
