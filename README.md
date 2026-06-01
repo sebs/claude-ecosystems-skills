@@ -40,27 +40,35 @@ The skills cross-reference one another (e.g. `supply-chain-risk` hands funding d
 
 ## Installation
 
-Clone into your **project** skills directory (available in that project only):
+### Plugin marketplace (recommended)
 
-```bash
-git clone https://github.com/sebs/claude-ecosystems-skills tmp-skills
-mkdir -p .claude/skills
-cp -R tmp-skills/.claude/skills/* .claude/skills/
-rm -rf tmp-skills
+This repo is a Claude Code **plugin marketplace**, so installation is two commands inside
+Claude Code:
+
+```
+/plugin marketplace add sebs/claude-ecosystems-skills
+/plugin install ecosystems@ecosystems-skills
 ```
 
-…or into your **personal** skills directory (available across all your projects):
+The first command registers the marketplace; the second installs the `ecosystems` plugin,
+which bundles all eight skills. Updates later are just `/plugin marketplace update`.
+
+### Manual (copy the skill folders)
+
+Prefer not to use the marketplace? Copy the skills into your **personal** directory
+(available across all your projects):
 
 ```bash
 git clone https://github.com/sebs/claude-ecosystems-skills tmp-skills
 mkdir -p ~/.claude/skills
-cp -R tmp-skills/.claude/skills/* ~/.claude/skills/
+cp -R tmp-skills/skills/* ~/.claude/skills/
 rm -rf tmp-skills
 ```
 
-Each skill lives in its own directory with a `SKILL.md`, e.g.
-`.claude/skills/dep-audit/SKILL.md`. Restart Claude Code (or start a new session) and the
-skills are picked up automatically.
+…or into a single project's `.claude/skills/` by swapping `~/.claude/skills` for
+`.claude/skills`. Each skill lives in its own directory with a `SKILL.md`, e.g.
+`skills/dep-audit/SKILL.md`. Start a new Claude Code session and the skills are picked up
+automatically.
 
 ## Usage
 

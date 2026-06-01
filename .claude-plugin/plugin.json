@@ -1,0 +1,24 @@
+{
+  "name": "ecosystems",
+  "version": "0.1.0",
+  "description": "Dependency, security, and supply-chain analysis skills powered by the ecosyste.ms CLI.",
+  "author": {
+    "name": "Sebastian Schürmann",
+    "email": "sebs@2xs.org"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/sebs/claude-ecosystems-skills",
+  "homepage": "https://github.com/sebs/claude-ecosystems-skills",
+  "keywords": [
+    "dependencies",
+    "packages",
+    "supply-chain",
+    "security",
+    "vulnerabilities",
+    "advisories",
+    "sbom",
+    "licenses",
+    "funding",
+    "ecosyste.ms"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "name": "ecosystems-skills",
+  "owner": {
+    "name": "Sebastian Schürmann",
+    "email": "sebs@2xs.org"
+  },
+  "metadata": {
+    "description": "Dependency, security, and supply-chain analysis skills powered by the ecosyste.ms CLI"
+  },
+  "plugins": [
+    {
+      "name": "ecosystems",
+      "source": "./",
+      "description": "Audit dependencies for vulnerabilities, vet packages before adopting them, triage advisory blast radius, check licenses, generate SBOMs, assess supply-chain risk, and find underfunded critical deps — all via the free, open ecosyste.ms dataset.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Sebastian Schürmann",
+        "email": "sebs@2xs.org"
+      },
+      "license": "MIT",
+      "repository": "https://github.com/sebs/claude-ecosystems-skills",
+      "homepage": "https://github.com/sebs/claude-ecosystems-skills",
+      "category": "dependencies",
+      "keywords": [
+        "dependencies",
+        "packages",
+        "supply-chain",
+        "security",
+        "vulnerabilities",
+        "advisories",
+        "sbom",
+        "licenses",
+        "funding",
+        "ecosyste.ms"
+      ]
+    }
+  ]
+}
